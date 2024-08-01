@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0693192C5BCE4600C47EF1 /* fashion_senseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0693182C5BCE4600C47EF1 /* fashion_senseApp.swift */; };
+		6A06931B2C5BCE4600C47EF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06931A2C5BCE4600C47EF1 /* ContentView.swift */; };
+		6A06931D2C5BCE4600C47EF1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06931C2C5BCE4600C47EF1 /* Item.swift */; };
+		6A06931F2C5BCE4900C47EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A06931E2C5BCE4900C47EF1 /* Assets.xcassets */; };
+		6A0693222C5BCE4900C47EF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0693212C5BCE4900C47EF1 /* Preview Assets.xcassets */; };
+		6A06932C2C5BCE4900C47EF1 /* fashion_senseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06932B2C5BCE4900C47EF1 /* fashion_senseTests.swift */; };
+		6A0693362C5BCE4900C47EF1 /* fashion_senseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0693352C5BCE4900C47EF1 /* fashion_senseUITests.swift */; };
+		6A0693382C5BCE4900C47EF1 /* fashion_senseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0693372C5BCE4900C47EF1 /* fashion_senseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A0693282C5BCE4900C47EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A06930D2C5BCE4600C47EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0693142C5BCE4600C47EF1;
+			remoteInfo = fashion_sense;
+		};
+		6A0693322C5BCE4900C47EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A06930D2C5BCE4600C47EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0693142C5BCE4600C47EF1;
+			remoteInfo = fashion_sense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0693152C5BCE4600C47EF1 /* fashion_sense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fashion_sense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0693182C5BCE4600C47EF1 /* fashion_senseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_senseApp.swift; sourceTree = "<group>"; };
+		6A06931A2C5BCE4600C47EF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A06931C2C5BCE4600C47EF1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6A06931E2C5BCE4900C47EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A0693212C5BCE4900C47EF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A0693272C5BCE4900C47EF1 /* fashion_senseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashion_senseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A06932B2C5BCE4900C47EF1 /* fashion_senseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_senseTests.swift; sourceTree = "<group>"; };
+		6A0693312C5BCE4900C47EF1 /* fashion_senseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashion_senseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0693352C5BCE4900C47EF1 /* fashion_senseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_senseUITests.swift; sourceTree = "<group>"; };
+		6A0693372C5BCE4900C47EF1 /* fashion_senseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashion_senseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0693122C5BCE4600C47EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0693242C5BCE4900C47EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A06932E2C5BCE4900C47EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A06930C2C5BCE4600C47EF1 = {
+			isa = PBXGroup;
+			children = (
+				6A0693172C5BCE4600C47EF1 /* fashion_sense */,
+				6A06932A2C5BCE4900C47EF1 /* fashion_senseTests */,
+				6A0693342C5BCE4900C47EF1 /* fashion_senseUITests */,
+				6A0693162C5BCE4600C47EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0693162C5BCE4600C47EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0693152C5BCE4600C47EF1 /* fashion_sense.app */,
+				6A0693272C5BCE4900C47EF1 /* fashion_senseTests.xctest */,
+				6A0693312C5BCE4900C47EF1 /* fashion_senseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A0693172C5BCE4600C47EF1 /* fashion_sense */ = {
+			isa = PBXGroup;
+			children = (
+				6A0693182C5BCE4600C47EF1 /* fashion_senseApp.swift */,
+				6A06931A2C5BCE4600C47EF1 /* ContentView.swift */,
+				6A06931C2C5BCE4600C47EF1 /* Item.swift */,
+				6A06931E2C5BCE4900C47EF1 /* Assets.xcassets */,
+				6A0693202C5BCE4900C47EF1 /* Preview Content */,
+			);
+			path = fashion_sense;
+			sourceTree = "<group>";
+		};
+		6A0693202C5BCE4900C47EF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A0693212C5BCE4900C47EF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A06932A2C5BCE4900C47EF1 /* fashion_senseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A06932B2C5BCE4900C47EF1 /* fashion_senseTests.swift */,
+			);
+			path = fashion_senseTests;
+			sourceTree = "<group>";
+		};
+		6A0693342C5BCE4900C47EF1 /* fashion_senseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0693352C5BCE4900C47EF1 /* fashion_senseUITests.swift */,
+				6A0693372C5BCE4900C47EF1 /* fashion_senseUITestsLaunchTests.swift */,
+			);
+			path = fashion_senseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0693142C5BCE4600C47EF1 /* fashion_sense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A06933B2C5BCE4900C47EF1 /* Build configuration list for PBXNativeTarget "fashion_sense" */;
+			buildPhases = (
+				6A0693112C5BCE4600C47EF1 /* Sources */,
+				6A0693122C5BCE4600C47EF1 /* Frameworks */,
+				6A0693132C5BCE4600C47EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fashion_sense;
+			productName = fashion_sense;
+			productReference = 6A0693152C5BCE4600C47EF1 /* fashion_sense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A0693262C5BCE4900C47EF1 /* fashion_senseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A06933E2C5BCE4900C47EF1 /* Build configuration list for PBXNativeTarget "fashion_senseTests" */;
+			buildPhases = (
+				6A0693232C5BCE4900C47EF1 /* Sources */,
+				6A0693242C5BCE4900C47EF1 /* Frameworks */,
+				6A0693252C5BCE4900C47EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0693292C5BCE4900C47EF1 /* PBXTargetDependency */,
+			);
+			name = fashion_senseTests;
+			productName = fashion_senseTests;
+			productReference = 6A0693272C5BCE4900C47EF1 /* fashion_senseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A0693302C5BCE4900C47EF1 /* fashion_senseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0693412C5BCE4900C47EF1 /* Build configuration list for PBXNativeTarget "fashion_senseUITests" */;
+			buildPhases = (
+				6A06932D2C5BCE4900C47EF1 /* Sources */,
+				6A06932E2C5BCE4900C47EF1 /* Frameworks */,
+				6A06932F2C5BCE4900C47EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0693332C5BCE4900C47EF1 /* PBXTargetDependency */,
+			);
+			name = fashion_senseUITests;
+			productName = fashion_senseUITests;
+			productReference = 6A0693312C5BCE4900C47EF1 /* fashion_senseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A06930D2C5BCE4600C47EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6A0693142C5BCE4600C47EF1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6A0693262C5BCE4900C47EF1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6A0693142C5BCE4600C47EF1;
+					};
+					6A0693302C5BCE4900C47EF1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6A0693142C5BCE4600C47EF1;
+					};
+				};
+			};
+			buildConfigurationList = 6A0693102C5BCE4600C47EF1 /* Build configuration list for PBXProject "fashion_sense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A06930C2C5BCE4600C47EF1;
+			productRefGroup = 6A0693162C5BCE4600C47EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0693142C5BCE4600C47EF1 /* fashion_sense */,
+				6A0693262C5BCE4900C47EF1 /* fashion_senseTests */,
+				6A0693302C5BCE4900C47EF1 /* fashion_senseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A0693132C5BCE4600C47EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0693222C5BCE4900C47EF1 /* Preview Assets.xcassets in Resources */,
+				6A06931F2C5BCE4900C47EF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0693252C5BCE4900C47EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A06932F2C5BCE4900C47EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0693112C5BCE4600C47EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A06931B2C5BCE4600C47EF1 /* ContentView.swift in Sources */,
+				6A06931D2C5BCE4600C47EF1 /* Item.swift in Sources */,
+				6A0693192C5BCE4600C47EF1 /* fashion_senseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0693232C5BCE4900C47EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A06932C2C5BCE4900C47EF1 /* fashion_senseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A06932D2C5BCE4900C47EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0693382C5BCE4900C47EF1 /* fashion_senseUITestsLaunchTests.swift in Sources */,
+				6A0693362C5BCE4900C47EF1 /* fashion_senseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A0693292C5BCE4900C47EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0693142C5BCE4600C47EF1 /* fashion_sense */;
+			targetProxy = 6A0693282C5BCE4900C47EF1 /* PBXContainerItemProxy */;
+		};
+		6A0693332C5BCE4900C47EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0693142C5BCE4600C47EF1 /* fashion_sense */;
+			targetProxy = 6A0693322C5BCE4900C47EF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A0693392C5BCE4900C47EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A06933A2C5BCE4900C47EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A06933C2C5BCE4900C47EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fashion_sense/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lakshya.fashion-sense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A06933D2C5BCE4900C47EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fashion_sense/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lakshya.fashion-sense";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A06933F2C5BCE4900C47EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lakshya.fashion-senseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fashion_sense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fashion_sense";
+			};
+			name = Debug;
+		};
+		6A0693402C5BCE4900C47EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lakshya.fashion-senseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fashion_sense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fashion_sense";
+			};
+			name = Release;
+		};
+		6A0693422C5BCE4900C47EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lakshya.fashion-senseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fashion_sense;
+			};
+			name = Debug;
+		};
+		6A0693432C5BCE4900C47EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lakshya.fashion-senseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fashion_sense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0693102C5BCE4600C47EF1 /* Build configuration list for PBXProject "fashion_sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0693392C5BCE4900C47EF1 /* Debug */,
+				6A06933A2C5BCE4900C47EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A06933B2C5BCE4900C47EF1 /* Build configuration list for PBXNativeTarget "fashion_sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A06933C2C5BCE4900C47EF1 /* Debug */,
+				6A06933D2C5BCE4900C47EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A06933E2C5BCE4900C47EF1 /* Build configuration list for PBXNativeTarget "fashion_senseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A06933F2C5BCE4900C47EF1 /* Debug */,
+				6A0693402C5BCE4900C47EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0693412C5BCE4900C47EF1 /* Build configuration list for PBXNativeTarget "fashion_senseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0693422C5BCE4900C47EF1 /* Debug */,
+				6A0693432C5BCE4900C47EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A06930D2C5BCE4600C47EF1 /* Project object */;
+}
