@@ -1,18 +1,15 @@
-//
-//  Item.swift
-//  fashion_sense
-//
-//  Created by Lakshya Agarwal on 1/8/24.
-//
-
 import Foundation
 import SwiftData
 
 @Model
-final class Item {
+class Item: Identifiable {
+    var id: UUID
     var timestamp: Date
-    
-    init(timestamp: Date) {
+    var imagePath: String?
+
+    init(timestamp: Date, imagePath: String? = nil) {
+        self.id = UUID()
         self.timestamp = timestamp
+        self.imagePath = imagePath
     }
 }
